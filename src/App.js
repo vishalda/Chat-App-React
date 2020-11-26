@@ -26,7 +26,7 @@ function App() {
         <Signout />
       </header>
       <section>
-        {user ? <ChartRoom />:<SignIn />}
+        {user ? <ChatRoom />:<SignIn />}
       </section>
     </div>
   );
@@ -46,7 +46,7 @@ function SignOut(){
     <button onClick={()=>auth.signOut()}>Sign out</button>
   ) 
 }
-function ChartRoom(){
+function ChatRoom(){
   const messageRef = firestore.collection('messages');
   const query = messageRef.orderBy('createdAt').limitToLast(25);
   const [messages] = useCollectionData(query,{idField:'id'});
