@@ -8,11 +8,12 @@
     "@testing-library/user-event": "^12.2.2",
     "emoji-mart": "^3.0.0",
     "firebase": "^8.1.1",
-    "firebase-tools": "^8.16.2",
+    "firebase-tools": "^9.16.6",
+    "npm": "^7.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-firebase-hooks": "^2.2.0",
-    "react-scripts": "^4.0.1",
+    "react-scripts": "^4.0.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -41,7 +42,6 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VDA-001/Chat-App-React.git"
